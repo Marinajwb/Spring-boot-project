@@ -1,0 +1,42 @@
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+
+
+
+# Gradle specific files
+.gradle/
+build/
+
+# Gradle Wrapper files
+!gradle/wrapper/gradle-wrapper.jar
+
+# Log files
+*.log
+**/logs/
+
+# Spring Boot specific files
+.env
+*.env
+**/application-*.yml
+**/application-*.properties
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+
+
+# Compiled class files
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Node specific files (if using front-end technologies like React/Angular with Spring Boot)
+node_modules/
+
+# Environment variables file
+.env
