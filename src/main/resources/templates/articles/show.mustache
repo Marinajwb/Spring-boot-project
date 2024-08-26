@@ -1,0 +1,22 @@
+{{>layouts/header}}
+
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Title</th>
+        <th scope="col">Content</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#articles}} <!-- articles는 여러 개의 article 객체를 담고 있는 리스트 -->
+    <tr>
+        <th scope="row">{{id}}</th> <!-- 각 article의 id -->
+        <td>{{title}}</td>          <!-- 각 article의 title -->
+        <td>{{content}}</td>        <!-- 각 article의 content -->
+    </tr>
+    {{/articles}} <!-- 반복문 종료 -->
+    </tbody>
+</table>
+<a href="/articles">Go to Articles</a>
+{{>layouts/footer}}
