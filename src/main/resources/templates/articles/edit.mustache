@@ -3,6 +3,7 @@
 <form action="/articles/{{article.id}}" method="post">
 
     <div class="mb-3">
+        <input name="id" type="hidden" value="{{id}}">
         <input type="text" class="form-control" name="title" value="{{title}}">
     </div>
     <div class="mb-3">
